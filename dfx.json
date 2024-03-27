@@ -1,6 +1,7 @@
 {
   "canisters": {
     "history_backend": {
+      "optimize": "size",
       "declarations": {
         "node_compatibility": true
       },
@@ -8,6 +9,7 @@
       "type": "motoko"
     },
     "history_frontend": {
+      "optimize": "size",
       "dependencies": [
         "history_backend"
       ],
